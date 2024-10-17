@@ -1,0 +1,371 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+#nav {
+ background-color: #f9c265; 
+ height: 65px;
+ left: 0;
+ right: 0;
+ display: flex;
+ flex-direction: row;
+}
+
+.navbt {
+  background-color: #f9c265;
+  color: black;
+  font-size: 20px;
+  margin: 20px 0px 0px 20px;
+  height: 35px;
+  width: 80px;
+  border: hidden;
+}
+
+#btsec1 {
+  font-family: sans-serif;
+  font-weight: 900;
+  margin-left: 30px;
+}
+
+#btsec2 {
+  font-family: sans-serif;
+  font-weight: 900;
+  margin-left: 100px;
+}
+
+#logo {
+  margin: 25px 270px 0px 270px;
+
+}
+
+#head {
+  background-color: #f9c265;
+  height: 500px;
+  display: flex;
+  flex-direction: row;
+}
+
+.headbt {
+  background-color: #f9c265;
+  height: 42px;
+  width: 160px;
+  margin-top: 25px;
+  border-radius: 20px;
+  font-size: 18px;
+  border-style: solid;
+  font-weight: 600;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-align: left;
+  padding-left: 20px;
+  background-image: url(arrow-upper-right.png);
+  background-position: right;
+  background-position-x: 117px;
+  background-position-y: center;
+  background-size: 25px;
+  background-repeat: no-repeat;
+}
+
+#headline {
+  height: 150px;
+  width: 590px;
+  font-size: 70px;
+  font-weight: 700;
+  font-family: sans-serif;
+  margin-top: 50px;
+  margin-left: 50px;
+}
+
+#headpara {
+  color: rgb(61, 60, 60);
+  height: 250px;
+  width: 615px;
+  font-size: 30px;
+  font-weight: 430;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin-top: 75px;
+  padding-left: 50px;
+  margin-left: 60px;
+  line-height: 1.35;
+}
+
+#info {
+  height: 200px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.infobox {
+  text-align: center;
+  padding: 50px 0px 30px 0px;
+  font-size: 18px;
+  font-family: sans-serif;
+}
+
+#aboutus {
+  height: 500px;
+  background-color: #fdf6e4;
+  display: flex;
+  flex-direction: row;
+}
+
+#img {
+  background-image: url(bestedu.avif);
+  background-size: 600px;
+  height: 400px;
+  width: 650px;
+  margin: 40px;
+  font-size: 40px;
+  font-weight: 700;
+  color: rgb(212, 212, 212);
+}
+
+#aboutinfo {
+  height: 200px;
+  width: 500px;
+  text-align: left;
+  padding: 90px 0px 150px 150px;
+  font-size: 58px;
+}
+
+#aboutpara {
+  height: 200px;
+  width: 420px;
+  font-size: 21px;
+  color: rgb(61, 60, 60);
+  line-height: 1.5;
+  text-align: left;
+  padding: 30px 300px 30px 0px;
+}
+
+#features {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  background-color: #faf8f4;
+  height: 900px;
+  padding: 50px;
+}
+
+#fcont1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin: 50px;
+}
+
+#fcont2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.fbox {
+  background-color: white;
+  height: 330px;
+  width: 330px;
+  border-radius: 20px;
+  box-sizing: border-box;
+  padding: 35px 30px 13px 30px;
+  font-size: 30px;
+  font-weight: 540;
+  line-height: 0.9;
+}
+
+#fhead {
+  height: 330px;
+  width: 740px;
+  background-color: black;
+  color: white;
+  border-radius: 20px;
+  margin: 0px 40px 0px 0px;
+  box-sizing: border-box;
+  padding: 55px;
+  font-size: 50px;
+  font-weight: 400;
+  line-height: 1.4;
+}
+
+#fhead button {
+  width: 190px;
+  height: 50px;
+  background-position-x: 153px;
+}
+
+#chead {
+  height: 10px;
+  background-color: #1f1f1f;
+  text-align: center;
+  padding: 100px 300px 90px 300px;
+  font-size: 30px;
+  color: white;
+}
+
+#courses {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  background-color: #1f1f1f;
+  height: 580px;
+  padding-top: 10px;
+}
+
+.cbox {
+  height: 380px;
+  width: 260px;
+  background-color: white;
+  color: rgb(61, 60, 60);
+  border-radius: 28px;
+  font-size: 15px;
+  padding: 30px;
+}
+
+.cbt {
+  background-color: #f9c265;
+  height: 42px;
+  width: 180px;
+  margin-top: 25px;
+  border-radius: 20px;
+  font-size: 18px;
+  border-style: solid;
+  font-weight: 600;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+  position: relative;
+  left: 30px;
+  right: 120px;
+  top: 10px;
+}
+
+#startlearn {
+  position: absolute;
+  z-index: 1;
+  height: 800px;
+  background-color: #f1efe9;
+  display: flex;
+  flex-direction: row;
+  line-height: 1.5;
+  width: 1440px;
+}
+
+#lhead {
+  margin: 60px 0px 20px 60px;
+}
+
+#lsec1 {
+  margin: 0px 0px 0px 60px;
+  font-size: 20px;
+}
+
+#lsec2 {
+  margin: 30px 0px 0px 55px;
+  font-size: 25px;
+  font-weight: 600;
+}
+
+#ready {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  position: absolute;
+  z-index: 2;
+  background-color: #f9c265;
+  height: 320px;
+  width: 900px;
+  margin: 628px 210px 100px 211px;
+  border-radius: 30px;
+}
+
+#rinfo {
+  margin: 56px 10px 20px 30px;
+  font-size: 20px;
+  color: rgb(61, 60, 60);
+  font-weight: 560;
+}
+
+#rbt {
+  background-color: black;
+  color: #f9c265;
+  height: 42px;
+  width: 160px;
+  margin-top: 25px;
+  border-radius: 20px;
+  font-size: 18px;
+  border-style: solid;
+  font-weight: 600;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-align: left;
+  padding-left: 20px;
+  background-image: url(arrow-upper-right.png);
+  background-position: right;
+  background-position-x: 117px;
+  background-position-y: center;
+  background-size: 25px;
+  background-repeat: no-repeat;
+}
+
+#footer {
+  position: absolute;
+  z-index: 1;
+  background-color:  #faf8f4;
+  display: flex;
+  flex-direction: column;
+  height: 850px;
+  width: 1440px;
+  margin: 800px 200px 0px 0px;
+}
+
+#foothead {
+  background-color:  #faf8f4;
+  margin: 200px 100px 20px 100px;
+  color: black;
+  font-size: 60px;
+  text-align: center;
+  font-weight: 540;
+}
+
+#footinfo {
+  z-index: 2;
+  background-color: #1f1f1f;
+  color: white;
+  border-radius: 30px;
+  height: 360px;
+  width: 1170px;
+  margin: 130px 50px 0px 105px;
+  border-bottom-left-radius: 0px;
+  border-bottom-right-radius: 0px;
+}
+
+#footinfosec1 {
+  display: flex;
+  flex-direction: row;
+  padding: 35px;
+}
+
+#footinfobox1 {
+  margin: 16px 300px 0px 10px;
+  font-size: 15px;
+  color: rgb(145, 144, 144);
+}
+
+#footinfosec2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 30px;
+}
+
+.footinfoboxes {
+  margin: 10px 20px 0px 50px;
+  line-height: 1.9;
+  font-size: 13px;
+  color: rgb(145, 144, 144);
+}
+
+.footinfobox {
+  font-size: 12px;
+  color: rgb(145, 144, 144); 
+  margin: 40px 50px 30px 0px; 
+}
