@@ -6,7 +6,7 @@
 
 #nav {
  background-color: #f9c265; 
- position: absolute; 
+ width: 1600px;
  height: 65px;
  left: 0;
  right: 0;
@@ -33,7 +33,7 @@
 #btsec2 {
   font-family: sans-serif;
   font-weight: 900;
-  margin-left: 100px;
+  margin-left: 160px;
 }
 
 #logo {
@@ -43,7 +43,7 @@
 
 #head {
   background-color: #f9c265;
-  position: absolute;
+  width: 1600px;
   height: 500px;
   display: flex;
   flex-direction: row;
@@ -88,16 +88,17 @@
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   margin-top: 75px;
   padding-left: 50px;
-  margin-left: 60px;
+  margin-left: 100px;
   line-height: 1.35;
 }
 
 #info {
   height: 200px;
+  width: 1600px;
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
-  position: absolute; 
+ 
 }
 
 .infobox {
@@ -112,7 +113,7 @@
   background-color: #fdf6e4;
   display: flex;
   flex-direction: row;
-  position: absolute; 
+  width: 1600px;
 }
 
 #img {
@@ -151,7 +152,7 @@
   background-color: #faf8f4;
   height: 900px;
   padding: 50px;
-  position: absolute; 
+  width: 1500px;
 }
 
 #fcont1 {
@@ -206,7 +207,7 @@
   padding: 100px 300px 90px 300px;
   font-size: 30px;
   color: white;
-  position: absolute; 
+  width: 1000px;
 }
 
 #courses {
@@ -216,7 +217,7 @@
   background-color: #1f1f1f;
   height: 580px;
   padding-top: 10px;
-  position: absolute; 
+  width: 1600px;
 }
 
 .cbox {
@@ -254,7 +255,7 @@
   display: flex;
   flex-direction: row;
   line-height: 1.5;
-  width: 1440px;
+  width: 1600px;
 }
 
 #lhead {
@@ -280,8 +281,8 @@
   z-index: 2;
   background-color: #f9c265;
   height: 320px;
-  width: 900px;
-  margin: 628px 210px 100px 211px;
+  width: 1000px;
+  margin: 628px 210px 100px 260px;
   border-radius: 30px;
 }
 
@@ -320,7 +321,7 @@
   display: flex;
   flex-direction: column;
   height: 850px;
-  width: 1440px;
+  width: 1600px;
   margin: 800px 200px 0px 0px;
 }
 
@@ -340,7 +341,7 @@
   border-radius: 30px;
   height: 360px;
   width: 1170px;
-  margin: 130px 50px 0px 105px;
+  margin: 130px 50px 0px 180px;
   border-bottom-left-radius: 0px;
   border-bottom-right-radius: 0px;
 }
