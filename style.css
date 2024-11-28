@@ -6,7 +6,7 @@
 
 #nav {
  background-color: #f9c265; 
- width: 1600px;
+ width: 1500px;
  height: 65px;
  left: 0;
  right: 0;
@@ -43,7 +43,7 @@
 
 #head {
   background-color: #f9c265;
-  width: 1600px;
+  width: 1500px;
   height: 500px;
   display: flex;
   flex-direction: row;
@@ -94,7 +94,7 @@
 
 #info {
   height: 200px;
-  width: 1600px;
+  width: 1300px;
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
@@ -113,7 +113,7 @@
   background-color: #fdf6e4;
   display: flex;
   flex-direction: row;
-  width: 1600px;
+  width: 1500px;
 }
 
 #img {
@@ -152,7 +152,7 @@
   background-color: #faf8f4;
   height: 900px;
   padding: 50px;
-  width: 1500px;
+  width: 1300px;
 }
 
 #fcont1 {
@@ -204,10 +204,10 @@
   height: 10px;
   background-color: #1f1f1f;
   text-align: center;
-  padding: 100px 300px 90px 300px;
+  padding: 100px 400px 90px 300px;
   font-size: 30px;
   color: white;
-  width: 1000px;
+  width: 900px;
 }
 
 #courses {
@@ -217,7 +217,7 @@
   background-color: #1f1f1f;
   height: 580px;
   padding-top: 10px;
-  width: 1600px;
+  width: 1500px;
 }
 
 .cbox {
@@ -227,7 +227,8 @@
   color: rgb(61, 60, 60);
   border-radius: 28px;
   font-size: 15px;
-  padding: 30px;
+  padding: 30px 30px 30px 30px;
+  margin-right: 130px;
 }
 
 .cbt {
@@ -255,7 +256,7 @@
   display: flex;
   flex-direction: row;
   line-height: 1.5;
-  width: 1600px;
+  width: 1500px;
 }
 
 #lhead {
@@ -282,7 +283,7 @@
   background-color: #f9c265;
   height: 320px;
   width: 1000px;
-  margin: 628px 210px 100px 260px;
+  margin: 628px 210px 100px 200px;
   border-radius: 30px;
 }
 
@@ -321,13 +322,13 @@
   display: flex;
   flex-direction: column;
   height: 850px;
-  width: 1600px;
+  width: 1500px;
   margin: 800px 200px 0px 0px;
 }
 
 #foothead {
   background-color:  #faf8f4;
-  margin: 200px 100px 20px 100px;
+  margin: 200px 100px 20px 20px;
   color: black;
   font-size: 60px;
   text-align: center;
@@ -341,7 +342,7 @@
   border-radius: 30px;
   height: 360px;
   width: 1170px;
-  margin: 130px 50px 0px 180px;
+  margin: 130px 200px 0px 110px;
   border-bottom-left-radius: 0px;
   border-bottom-right-radius: 0px;
 }
